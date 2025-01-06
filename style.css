@@ -150,3 +150,98 @@ main{
     font-size: 20px;
     color: #484646;
 }
+
+
+
+@media only screen and (max-width: 430px){
+
+#intro{
+        height: 54%;
+        width: 100%;
+        padding: 16px 30px;
+    }
+    
+#intro h1 {
+    
+    font-size: 81px;
+    line-height: 87px
+    }
+    
+ #place h3, h4 {
+        font-size: 18px;
+
+    }
+
+#nav{
+    width: 100%;
+    position: fixed;
+    padding: 35px 25px;
+}
+#nav h3{
+    padding: 9px 15px;
+    font-size: 13px;
+}
+
+#hero-img{
+    height: 57%;
+    width: 100%;
+}
+#about h2 {
+    width: 68%;
+    font-size: 43px;
+    line-height: 48px;}
+
+
+#about-part2{
+    padding: 0px 40px;
+    height: 110%;
+}
+
+#about-part2 h3 {
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+#icons i{
+    line-height: 60px;
+    font-size: 23px;
+}
+
+#work{
+    flex-direction: row-reverse;
+    padding: 40px 100px;
+    width: 98%;
+}
+
+#work1{
+    border-right: 2px solid ;
+    height: 0;
+    white-space: nowrap;
+    position: relative;
+    left: -205px;
+}
+
+
+#work2{
+width: 122%;
+}
+
+.work2-part:nth-child(1){
+    width: 260%;
+}
+
+.work2-part .elem h4 {
+
+    font-size: 35px;
+}
+
+.work2-part .elem p {
+    font-size: 16px;
+}
+
+.work2-part DD{
+    
+}
+}
+
+
